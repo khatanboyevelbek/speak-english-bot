@@ -2,7 +2,6 @@ const dotenv = require('dotenv');
 dotenv.config();
 const {Telegraf} = require('telegraf');
 const axios = require('axios');
-const googletrans = require('googletrans');
 const token = process.env.TOKEN;
 const bot = new Telegraf(token);
 const appId = process.env.APP_ID;
