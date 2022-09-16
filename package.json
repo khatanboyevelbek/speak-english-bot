@@ -1,0 +1,25 @@
+{
+  "name": "dictionary-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "engines": {
+    "node": "16.17.0",
+    "npm": "8.18.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Elbek Khatanboyev",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "telegraf": "^4.9.1"
+  }
+}
